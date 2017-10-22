@@ -1,5 +1,9 @@
 # ProjektZespolowy
 
+# Diagram CI
+```
+https://drive.google.com/file/d/0B0HgvJU_fSDeT1pmdFh4a0VLN1E/view?usp=sharing
+```
 ## Odpalenie jenkinsa.
 
 ```
@@ -20,7 +24,7 @@ Wprowadzania danych podstawowych dla
 - dane identyfikujące autobus
 - dane kierowcy
 - dane poszczególnych kursów
-Wprowadzanie dancyh: 
+Wprowadzanie dancyh:
 - dane identyfikujące linię autobusową (jednoznacznie określającą kolejne przystanki)
 - dane określające kurs (godzina rozpoczęcia kursu i wybrana linia autobusowa)
 - powiązanie kierowcy z kursem
@@ -28,5 +32,4 @@ Wprowadzanie dancyh:
 Z systemu/ aplikacji możliwe powinno byc generowanie grafików dla kierowców:
 - zbiorczego grafiku
 - grafiku dla wybranego kierowcy
-Rozkładu jazdy dla wybranego przystanku. 
-
+Rozkładu jazdy dla wybranego przystanku.
