@@ -1,18 +1,9 @@
 # ProjektZespolowy
 
-# Diagram CI
-```
-https://drive.google.com/file/d/0B0HgvJU_fSDeT1pmdFh4a0VLN1E/view?usp=sharing
-```
-## Odpalenie jenkinsa.
+# [WIP] Diagram CI
+[Link do diagramu CI](https://drive.google.com/file/d/0B0HgvJU_fSDeT1pmdFh4a0VLN1E/view?usp=sharing)
 
-```
-docker run -p 8080:8080 -p 50000:50000 -v <SCIEŻKA_DO_REPO>/jenkins:/var/jenkins_home jenkins
-
-```
-
-Uwaga: Katalog powinien mieć ścieżkę bezwzględną.
-
+# Specyfikacja wymagań
 Baza danych przedsiębiorstwa komunikacji miejskiej.
 
 Baza powinna przechowywać informacje o kierowcach, liniach (przystankach), autobusach oraz rozkładzie jazdy.
@@ -33,3 +24,12 @@ Z systemu/ aplikacji możliwe powinno byc generowanie:
 - zbiorczego grafiku
 - grafiku dla wybranego kierowcy
 Rozkładu jazdy dla wybranego przystanku.
+
+
+# Notatki
+## Docker
+```
+docker run -p 8080:8080 -p 50000:50000 -v <SCIEŻKA_DO_REPO>/jenkins:/var/jenkins_home jenkins
+
+```
+Uwaga: Katalog powinien mieć ścieżkę bezwzględną.
