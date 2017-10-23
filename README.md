@@ -1,7 +1,25 @@
 # ProjektZespolowy
 
+# Postęp w pracy
+[Link do tablicy trello](https://trello.com/b/vxhGtB4n/ug-projekt-zespolowy2)
+
 # [WIP] Diagram CI
 [Link do diagramu CI](https://drive.google.com/file/d/0B0HgvJU_fSDeT1pmdFh4a0VLN1E/view?usp=sharing)
+
+# Docker
+## Budowanie obrazu dla "frontend"
+```
+docker build -t frontend .
+```
+## Kompozycja serwisu
+Start wyszystkich serwisów
+```
+docker-compose up
+```
+Start tylko jednego (np. mysql)
+```
+docker-compose run mysql
+```
 
 # Specyfikacja wymagań
 Baza danych przedsiębiorstwa komunikacji miejskiej.

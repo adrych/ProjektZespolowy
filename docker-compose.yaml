@@ -1,0 +1,17 @@
+version: "3"
+
+services:
+  frontend:
+    image: frontend
+    entrypoint: /etc/init.d/frontend_run.sh
+    # Najpierw baza potem serwis
+    depends_on:
+      - "mariadb"
+  mariadb:
+    image: mariadb
+    # Ustaw haslo do bazy danych
+    environment:
+      - MYSQL_ROOT_PASSWORD=password
+    # Udostepnij standardowy port mysql
+    ports:
+      - "3306:3306"
