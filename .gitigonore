@@ -1,2 +1,2 @@
-gocode/bin
+gocode/bin/*
 gocode/pkg
