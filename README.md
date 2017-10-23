@@ -1,17 +1,17 @@
 # ProjektZespolowy
 
-# Postęp w pracy
+## Plan prac
 [Link do tablicy trello](https://trello.com/b/vxhGtB4n/ug-projekt-zespolowy2)
 
-# [WIP] Diagram CI
+## [WIP] Diagram CI
 [Link do diagramu CI](https://drive.google.com/file/d/0B0HgvJU_fSDeT1pmdFh4a0VLN1E/view?usp=sharing)
 
-# Docker
-## Budowanie obrazu dla "frontend"
+## Docker
+### Budowanie obrazu dla "frontend"
 ```
 docker build -t frontend .
 ```
-## Kompozycja serwisu
+### Kompozycja serwisu
 Start wyszystkich serwisów
 ```
 docker-compose up
@@ -21,7 +21,7 @@ Start tylko jednego (np. mysql)
 docker-compose run mysql
 ```
 
-# Specyfikacja wymagań
+## Specyfikacja wymagań
 Baza danych przedsiębiorstwa komunikacji miejskiej.
 
 Baza powinna przechowywać informacje o kierowcach, liniach (przystankach), autobusach oraz rozkładzie jazdy.
@@ -42,12 +42,3 @@ Z systemu/ aplikacji możliwe powinno byc generowanie:
 - zbiorczego grafiku
 - grafiku dla wybranego kierowcy
 Rozkładu jazdy dla wybranego przystanku.
-
-
-# Notatki
-## Docker
-```
-docker run -p 8080:8080 -p 50000:50000 -v <SCIEŻKA_DO_REPO>/jenkins:/var/jenkins_home jenkins
-
-```
-Uwaga: Katalog powinien mieć ścieżkę bezwzględną.
