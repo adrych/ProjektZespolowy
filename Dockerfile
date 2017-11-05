@@ -17,4 +17,5 @@ RUN echo "export PATH=$PATH:/projects/bin:/usr/local/go/bin" >> /etc/profile.d/p
 # Dodanie skryptow wejsciowych - aby moc uzywac kontenera w roznych celach. Budowanie, testowanie, uruchamianie
 ADD docker_entrypoints /etc/rc.d/init.d
 # Dodanie kodu zrodlowego aplikacji do kontenera
-ADD gocode/src /projects/src
+# ADD gocode/src /projects/src
+EXPOSE 8080

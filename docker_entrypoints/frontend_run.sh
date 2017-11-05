@@ -4,7 +4,7 @@
 /etc/init.d/frontend_install.sh
 
 # Testuje polaczenie z baza danych (TODO: wykasowac to potem)
-mysql -h 172.21.0.2 -u root -ppassword -e 'show databases\G'
-
+sleep 30
+mysql -h mariadb -u root -ppassword -e 'show databases\G'
 # Uruchamiam aplikacje
 frontend

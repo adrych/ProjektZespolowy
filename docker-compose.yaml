@@ -4,6 +4,10 @@ services:
   frontend:
     image: frontend
     entrypoint: /etc/init.d/frontend_run.sh
+    volumes:
+      - ./gocode/src:/projects/src
+    ports:
+      - "8080:8080"
     # Najpierw baza potem serwis
     depends_on:
       - "mariadb"
